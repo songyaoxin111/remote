@@ -19,7 +19,7 @@ export class Main{
         this.loader.onLoaded(map=>this.onResourcesLoaded(map));
     }
 
-    // 定义资源加载成功以后调用的方法
+    // 定义资源加载成功以后调用的方法  
     onResourcesLoaded(map){
         // console.log(map);
         // 将资源保存进变量池中

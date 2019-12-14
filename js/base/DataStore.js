@@ -20,7 +20,7 @@ export class DataStore{
     }
 
     /**
-     * 根据给定的key和val,保存数据
+     * 根据给定的key和val,保存数据   
      * @param {String} key 
      * @param {Object} val 
      */

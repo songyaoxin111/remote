@@ -20,7 +20,7 @@ export class ResourceLoader{
 
     /**
      * 定义图片完全加载成功的方法 
-     */
+     */   
     onLoaded(callback){
         let count = 0;//计数器
         for(let val of this.map.values()){
